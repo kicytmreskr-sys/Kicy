@@ -1,4 +1,5 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()(function(Library)
+        
     local Window = Library.CreateLib("Kicy’s Instant Steal", "DarkTheme")
     task.spawn(function()
         task.wait(0.2)
